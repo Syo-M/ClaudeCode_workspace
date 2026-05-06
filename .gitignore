@@ -1,0 +1,35 @@
+# Claude Code 個人設定
+.claude/settings.local.json
+.claude/.credentials.json
+
+# 環境ファイル
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ログ・一時ファイル
+*.log
+tmp/
+.cache/
+
+# 依存関係(プロジェクトで上書き可)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ビルド成果物
+dist/
+build/
+out/
