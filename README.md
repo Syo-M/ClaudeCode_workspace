@@ -21,6 +21,7 @@ claudeCodeVibes/
 ├── scripts/
 │   └── statusline.py        # ステータスバー表示
 ├── memory/                  # auto memory のドキュメント(実体は ~/.claude 配下)
+├── design/                  # Claude Design 連携(原本・ハンドオフ・プロトタイプ)
 ├── docs/                    # 規約・設計書(必要時に参照)
 ├── projects/                # 個別プロジェクト
 │   └── _template/           # 新規プロジェクトのひな形

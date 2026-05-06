@@ -33,3 +33,8 @@ venv/
 dist/
 build/
 out/
+
+# Claude Design ハンドオフ(必要に応じて個別除外)
+# 大きすぎる bundle.zip は git LFS を検討
+# design/handoff/*/bundle.zip
+design/handoff/*/_extracted/

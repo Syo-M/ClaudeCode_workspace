@@ -21,6 +21,8 @@ CLAUDE.md は毎ターン全文がコンテキストに載るため、以下は*
 - `.claude/rules/` — ファイル種別ごとのルール(編集時に自動参照)
 - `.claude/agents/` — サブエージェント定義
 - `memory/README.md` — auto memory の保存先と運用
+- `docs/design-workflow.md` — Claude Design 連携手順
+- `design/` — デザインシステム原本・ハンドオフ受け入れ
 
 ## トークン節約の指針
 
