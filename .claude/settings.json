@@ -37,6 +37,16 @@
     "command": "python3 scripts/statusline.py"
   },
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/hooks/session-start.sh"
+          }
+        ]
+      }
+    ],
     "PostToolUse": []
   }
 }

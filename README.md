@@ -28,16 +28,50 @@ claudeCodeVibes/
 └── .gitignore
 ```
 
-## はじめかた
+## Quick Start
+
+このリポジトリを **初めて触る人向け**の 5 分手順:
+
+### 1. クローン
 
 ```bash
-# Claude Code を起動
-claude
-
-# 新しいプロジェクトを始める
-cp -r projects/_template projects/my-project
-cd projects/my-project
+git clone https://github.com/Syo-M/ClaudeCode_workspace.git
+cd ClaudeCode_workspace
 ```
+
+### 2. Claude Code を起動
+
+```bash
+claude
+```
+
+ステータスバーに `[ClaudeCode_workspace] | <branch> | <model>` が出れば設定が効いています。
+
+### 3. はじめての対話で確認すること
+
+最初のメッセージで `CLAUDE.md` を読みましょう。続けて以下を試すと感覚が掴めます:
+
+```
+/plan このリポジトリで TODO アプリを作る計画を立てて
+/escalate              ← 今のタスクに最適なモデルを提案
+/explore design/       ← サブエージェントでディレクトリ探索
+```
+
+### 4. 新規プロジェクトを始める
+
+```
+/new-project my-app
+```
+
+または手動で `cp -r projects/_template projects/my-app`。
+
+### 5. トークン節約のクセを付ける
+
+- タスクが終わったら `/clear`(セッションを長く引きずらない)
+- 設計フェーズは `Shift+Tab` で **Plan Mode** に入る
+- 重い実装が必要になるまで Opus に切り替えない
+
+詳細は [docs/token-saving.md](docs/token-saving.md)。
 
 ## 設計の意図
 
